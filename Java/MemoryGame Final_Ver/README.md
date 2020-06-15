@@ -1,0 +1,2 @@
+﻿Para jogar o jogo da memória, execute o arquivo Memoria.jar
+Para compilar o programa: abra o cmd, entre no diretório onde está salvo os arquivos .java do programa, e depois digite o comando javac *.java
