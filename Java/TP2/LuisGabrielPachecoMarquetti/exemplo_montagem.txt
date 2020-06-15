@@ -1,0 +1,15 @@
+.text
+.globl main
+main:
+lui $1,0x00001001
+ori $8,$1,0
+lw $9,0($8)
+lui $1,0x00001001
+label2: ori $10,$1,4
+lw $11,0($10)
+addu $12,$9,$11
+bne $11, $5,label2
+lui $1,0x00001001
+ori $13,$1,8
+sw $12,0($13)
+beq $9,$10,main
